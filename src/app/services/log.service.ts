@@ -2,7 +2,7 @@ import { Injectable } from "@angular/core";
 import { Log } from "../models/Log";
 import { BehaviorSubject } from "rxjs/BehaviorSubject";
 import { Observable } from "rxjs/Observable";
-import { of } from "rxjs/Observable/of";
+import { of } from 'rxjs';
 
 @Injectable({
   providedIn: "root"
